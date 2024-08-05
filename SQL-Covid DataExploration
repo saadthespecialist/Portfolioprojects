@@ -45,7 +45,7 @@ GROUP BY Location, population
 ORDER BY PercentPopulationInfected DESC
 
 
----Showing Continent with highest death count Per´population
+---Showing Continent with highest death count PerÂ´population
 
 SELECT Continent, MAX(cast(total_deaths as int))AS TotalDeathCount
 FROM PortfolioProject..CovidDeaths
